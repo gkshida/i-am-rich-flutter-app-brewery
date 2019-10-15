@@ -14,8 +14,8 @@ class IAmRichApp extends StatelessWidget {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-              'https://images.pexels.com/photos/146080/pexels-photo-146080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+            image: AssetImage(
+              'images/diamond.png'
             ),
           ),
         ),
